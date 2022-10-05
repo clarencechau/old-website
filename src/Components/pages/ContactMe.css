@@ -1,0 +1,39 @@
+.contact {
+    text-align: center;
+    padding: 4rem;
+    background: #f2efe7;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.contact-information {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.toronto {
+    border-style: none;
+    width: 1000px;
+    height: 500px;
+}
+
+.hyperlink {
+    color: black;
+}
+
+@media only screen and (max-width: 1400px) {
+    .toronto {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .toronto {
+        width: 400px;
+        height: 300px;
+    }
+}
