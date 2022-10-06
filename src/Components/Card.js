@@ -13,14 +13,14 @@ function Card() {
               src="images/gungeon.png "
               text="Gungeon"
               label="Java"
-              path={{ pathname: "https://github.com/clarencechau/Gungeon"}}
+              path="https://github.com/clarencechau/Gungeon"
               target="_blank"
             />
             <CardItem
               src="images/threemusketeers.png"
               text="Three Musketeers Simulator"
               label="Java"
-              path={{ pathname: "https://github.com/clarencechau/ThreeMusketeers"}}
+              path="https://github.com/clarencechau/ThreeMusketeers"
               target="_blank"
             />
           </ul>
@@ -29,21 +29,21 @@ function Card() {
               src="images/badmintonzone.png"
               text="Badminton Zone"
               label="HTML"
-              path={{ pathname: "http://www.badmintonzone.ca/"}}
+              path="http://www.badmintonzone.ca/"
               target="_blank"
             />
             <CardItem
               src="images/taskmanagerapp.png"
               text="Task Manager Application"
               label="React Native"
-              path={{ pathname: "https://github.com/clarencechau/Task-Application"}}
+              path="https://github.com/clarencechau/Task-Application"
               target="_blank"
             />
             <CardItem
               src="images/meepoisyou.png"
               text="Meepo is You"
               label="Python"
-              path={{ pathname: "https://github.com/clarencechau/Meepo-Is-You"}}
+              path="https://github.com/clarencechau/Meepo-Is-You"
               target="_blank"
             />
           </ul>

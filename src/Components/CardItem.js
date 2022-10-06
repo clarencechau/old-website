@@ -1,15 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path} target={props.target}>
+        <a className='cards__item__link' href={props.path} target={props.target}>
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
-              alt='Travel Image'
+              alt='Travel'
               src={props.src}
             />
           </figure>
@@ -17,7 +16,7 @@ function CardItem(props) {
             <h5 className='cards__item__text'>{props.text}</h5>
             <h6 className='cards__item__minitext'>{props.minitext}</h6>
           </div>
-        </Link>
+        </a>
       </li>
     </>
   );
