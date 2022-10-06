@@ -76,7 +76,7 @@ function Navbar() {
             </li>
           </ul>
           {button && (
-            <Button link="/contact" buttonStyle="btn--outline">
+            <Button newWindow = "0" link="/contact" buttonStyle="btn--outline">
               CONTACT
             </Button>
           )}

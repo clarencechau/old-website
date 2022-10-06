@@ -14,6 +14,7 @@ export const Button = ({
   buttonSize,
   link,
   target,
+  newWindow,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -22,7 +23,8 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   const handleClick = () => {
-    window.open(link);
+    console.log("handled");
+    window.open({ link });
   };
 
   return (
@@ -34,7 +36,7 @@ export const Button = ({
     >
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={handleClick}
+        onClick={newWindow === "1" ? handleClick : onClick}
         type={type}
       >
         {children}
