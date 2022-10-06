@@ -13,7 +13,7 @@ export const Button = ({
   buttonStyle,
   buttonSize,
   link,
-  target
+  target,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -21,11 +21,20 @@ export const Button = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
+  const handleClick = () => {
+    window.open(link);
+  };
+
   return (
-    <Link to={link} target={target} className="btn-mobile">
+    <Link
+      to={link}
+      target={target}
+      className="btn-mobile"
+      rel="noopener noreferrer"
+    >
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
+        onClick={handleClick}
         type={type}
       >
         {children}

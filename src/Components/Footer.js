@@ -68,42 +68,42 @@ function Footer() {
             </Link>
           </div>
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link facebook"
-              to={{ pathname: "https://www.facebook.com/clementjm86" }}
+              href="https://www.facebook.com/clementjm86"
               target="_blank"
               aria-label="Facebook"
+              rel="noreferrer noopener"
             >
               <i className="fab fa-facebook"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link instagram"
-              to={{
-                pathname: "https://www.instagram.com/clarence.chauu/?hl=en",
-              }}
+              href="https://www.instagram.com/clarence.chauu/?hl=en"
               target="_blank"
               aria-label="Instagram"
+              rel="noreferrer noopener"
             >
               <i className="fab fa-instagram"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link linkedin"
-              to={{
-                pathname: "https://ca.linkedin.com/in/clarence-chau-3a827b1b7",
-              }}
+              href="https://ca.linkedin.com/in/clarence-chau-3a827b1b7"
               target="_blank"
               aria-label="LinkedIn"
+              rel="noreferrer noopener"
             >
               <i className="fab fa-linkedin"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link github"
-              to={{ pathname: "https://github.com/clarencechau" }}
+              href="https://github.com/clarencechau"
               target="_blank"
               aria-label="GitHub"
+              rel="noreferrer noopener"
             >
               <i className="fab fa-github"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </section>

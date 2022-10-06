@@ -14,7 +14,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          link={{ pathname: "https://github.com/clarencechau" }}
+          link="https://github.com/clarencechau"
           target="_blank"
         >
           GitHub <i className="fab fa-github" />
@@ -23,9 +23,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          link={{
-            pathname: "https://ca.linkedin.com/in/clarence-chau-3a827b1b7",
-          }}
+          link="https://ca.linkedin.com/in/clarence-chau-3a827b1b7"
           target="_blank"
         >
           LinkedIn <i className="fab fa-linkedin" />
