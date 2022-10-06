@@ -16,6 +16,7 @@ function HeroSection() {
           buttonSize="btn--large"
           link="https://github.com/clarencechau"
           target="_blank"
+          newWindow="1"
         >
           GitHub <i className="fab fa-github" />
         </Button>
@@ -25,6 +26,7 @@ function HeroSection() {
           buttonSize="btn--large"
           link="https://ca.linkedin.com/in/clarence-chau-3a827b1b7"
           target="_blank"
+          newWindow="1"
         >
           LinkedIn <i className="fab fa-linkedin" />
         </Button>

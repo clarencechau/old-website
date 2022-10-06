@@ -24,7 +24,7 @@ export const Button = ({
 
   const handleClick = () => {
     console.log("handled");
-    window.open({ link });
+    window.open(link);
   };
 
   return (
