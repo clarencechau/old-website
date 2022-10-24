@@ -10,7 +10,7 @@ import Contact from "./Components/pages/ContactMe";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Clarence's Website";
+    document.title = "Clarence Chau";
   }, []);
   return (
     <>
