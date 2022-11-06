@@ -7,11 +7,10 @@
   align-self: center;
 }
 
+/* this */
 .footer-row {
   flex-direction: row;
   justify-content: center;
-  align-self: center;
-
 }
 
 .footer-contact {
@@ -156,9 +155,11 @@
   height: 100px;
 }
 
+
+/* this */
 .input-area {
   flex-direction: column;
-  width: 500px;
+  width: 200px;
   justify-content: center;
   align-self: center;
   align-items: center;
@@ -173,7 +174,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1300px) {
     .footer-links {
         padding-top: 2rem;
     }
@@ -184,6 +185,21 @@
 
     .btn {
         width: 100%
+    }
+
+    .input-area {
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      align-items: center;
+      display: flex;
+      text-align: center;
+    }
+
+    .footer-subscription-heading {
+      margin-bottom: 24px;
+      font-size: 23px;
+      width: 70%;
     }
 
     .footer-link-wrapper {
