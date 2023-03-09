@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import ResumePDF from "../Documents/Resume.pdf";
+import ResumePDF from "../Documents/MyResume.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
