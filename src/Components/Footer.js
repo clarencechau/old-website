@@ -52,9 +52,9 @@ function Footer() {
               <button
                 className="button"
                 type="submit"
-                disabled={state.submitting}
+                disabled={state.succeeded}
               >
-                Submit
+                {state.succeeded ? 'Thank you!' : 'Submit'}
               </button>
             </form>
           </div>
