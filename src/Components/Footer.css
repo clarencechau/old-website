@@ -257,4 +257,16 @@
   .social-media-wrap {
     flex-direction: column;
   }
+
+  .message {
+    width: 330px;
+    height: 100px;
+  }
+
+  .email {
+    width: 330px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+  }
 }

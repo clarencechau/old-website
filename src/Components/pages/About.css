@@ -21,7 +21,7 @@ h3 {
 
 .picture {
   border-style: none;
-  width: 500px;
+  width: 50%;
   height: 500px;
 }
 
@@ -51,7 +51,7 @@ h3 {
 
   .picture {
     height: 350px;
-    width: 280px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
