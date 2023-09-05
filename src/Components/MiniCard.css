@@ -1,11 +1,28 @@
-.things {
-    padding-left: 20px;
+.right {
+    padding-left: 50px;
     margin-top: 20px;
-    position: relative;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto Condensed';
+
+}
+
+.left {
+    font-family: 'Roboto Condensed';
+    padding-left: 50px;
+    margin-top: 20px;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .image {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .image-title {
@@ -13,8 +30,15 @@
 }
 
 .image-description {
+    font-family: 'Roboto Condensed';
     width: 100%;
 }
+
+.h4 {
+    font-family: 'Roboto Condensed';
+}
+
+
 
 @media only screen and (min-width: 1024) {
     .things {
@@ -23,6 +47,11 @@
 
     .image-description {
         display: flex;
+        font-family: 'Roboto Condensed';
+    }
+
+    .h4 {
+        font-family: 'Roboto Condensed';
     }
 }
 
@@ -33,5 +62,11 @@
 
     .image-description {
         margin-bottom: 6rem;
+        font-family: 'Roboto Condensed';
+
+    }
+
+    .h4 {
+        font-family: 'Roboto Condensed';
     }
 }

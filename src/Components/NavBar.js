@@ -2,14 +2,17 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import ResumePDF from "../Documents/MyResume.pdf";
+import ResumePDF from "../Documents/Clarence_Resume.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    setClick(false);
+    goToTop();
+  }
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -22,6 +25,13 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, []);
+
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   window.addEventListener("resize", showButton);
 
@@ -36,25 +46,6 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/projects"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Projects
-              </Link>
-            </li>
             <li className="nav-item">
               <Link
                 to={ResumePDF}
@@ -71,13 +62,13 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Contact Me
+                Connect
               </Link>
             </li>
           </ul>
           {button && (
-            <Button newWindow = "0" link="/contact" buttonStyle="btn--outline">
-              CONTACT
+            <Button newWindow="0" link="/contact" buttonStyle="btn--outline" onClick={goToTop}>
+              CONNECT
             </Button>
           )}
         </div>

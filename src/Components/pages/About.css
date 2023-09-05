@@ -1,38 +1,67 @@
 .about {
-  padding: 4rem;
+  padding: 1rem;
   background: #f2efe7;
 }
 
+.about-me-title {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto Condensed';
+}
+
+.box {
+  width: 300;
+  height: 300;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #f2efe7;
+  padding: 20px;
+}
+
 h1 {
-  margin-top: 20px;
+  margin-top: 30px;
+  font-family: 'Roboto Condensed';
+  font-size: 50px;
+  text-align: left;
+  margin-left: 120px;
+
 }
 
 h3 {
+  padding-top: 20px;
   margin-top: 20px;
+  font-family: 'Generalsans,sans-serif;';
+  font-size: 30px;
 }
 
 .who-am-i {
   margin-left: 20px;
+  font-family: 'Roboto Condensed';
 }
 
 .information {
-  text-align: center;
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 50px;
 }
 
 .picture {
-  border-style: none;
-  width: 50%;
-  height: 500px;
+  height: 400px;
+  border-radius: 8%;
+  padding: 10px;
 }
 
 .sides {
   justify-content: space-evenly;
+  padding-bottom: 40px;
+  align-items: end;
 }
 
 .things-i-enjoy {
   margin-top: 20px;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   position: relative;
 
@@ -40,25 +69,11 @@ h3 {
 
 @media only screen and (min-width: 1300px) {
   .sides {
+    justify-content: center;
     display: flex;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .cards__item {
-    margin-bottom: 2rem;
+    align-items: center;
   }
 
-  .picture {
-    height: 350px;
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
   .things-i-enjoy {
     text-align: center;
     display: flex;
@@ -66,8 +81,13 @@ h3 {
 }
 
 @media only screen and (max-width: 1300px) {
+  .sides {
+    justify-content: center;
+    align-items: center;
+  }
+
   .things-i-enjoy {
     text-align: center;
-    margin-bottom: 2rem;
+    display: flex;
   }
 }

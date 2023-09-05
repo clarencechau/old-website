@@ -17,18 +17,27 @@ video {
   object-fit: contain;
 }
 
+.font-link {
+  font-family: 'Roboto Condensed';
+  text-align: center;
+  color: white;
+  font-size: 90px;
+}
+
 .hero-container > h1 {
   color: white;
-  font-size: 100px;
   margin-top: -100px;
+  font-size: 90px;
+  font-family: 'Roboto Condensed';
+  text-align: center;
 }
 
 .hero-container > p {
   margin-top: 8px;
   color: white;
-  font-size: 32px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 42px;
+  font-family: 'Roboto Condensed';
+
 }
 
 .hero-btns {
