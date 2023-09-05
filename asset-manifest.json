@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.47c53ec6.css",
-    "main.js": "/static/js/main.f251ad77.js",
-    "static/media/MyResume.pdf": "/static/media/MyResume.f73dd1bac645d071a6d9.pdf",
+    "main.css": "/static/css/main.67edbc6d.css",
+    "main.js": "/static/js/main.8524d377.js",
+    "static/media/Clarence_Resume.pdf": "/static/media/Clarence_Resume.342bf4d672655442738d.pdf",
     "index.html": "/index.html",
-    "main.47c53ec6.css.map": "/static/css/main.47c53ec6.css.map",
-    "main.f251ad77.js.map": "/static/js/main.f251ad77.js.map"
+    "main.67edbc6d.css.map": "/static/css/main.67edbc6d.css.map",
+    "main.8524d377.js.map": "/static/js/main.8524d377.js.map"
   },
   "entrypoints": [
-    "static/css/main.47c53ec6.css",
-    "static/js/main.f251ad77.js"
+    "static/css/main.67edbc6d.css",
+    "static/js/main.8524d377.js"
   ]
 }
