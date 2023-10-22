@@ -1,4 +1,3 @@
-# Welcome to my personal website!!
-# This is my first iteration of my personal portfolio
+# My first iteration of my personal website
 
 To visit the new website, go to clarencechau.github.io
